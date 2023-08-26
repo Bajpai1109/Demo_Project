@@ -1,0 +1,156 @@
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo{
+
+  margin-top: 33px;
+  margin-left: 41px;
+  width: 194px;
+  height: 40px;
+  cursor: pointer;
+  /* UI Properties */
+
+  opacity: 1;
+}
+.inner-carousel{
+  width: 720px !important;
+height: 810px !important;
+}
+.carousel{
+  width: 600px;
+height: 810px;
+  flex-shrink: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important; 
+}
+.main-div-front-page{
+  height: 100vh;
+  z-index: 1;
+  margin-top: 0;
+  margin-left: 0;
+  width: 100vw;
+}
+
+.colored-side-fp{
+  margin-top: 0px;
+margin-left: 0px;
+width: 1440px;
+height: 810px;
+padding-left: 0;
+padding-right: 0;
+background: #FDE3D9 0% 0% no-repeat ;
+opacity: 1;
+}
+.image-side-fp{
+top: 0px;
+left: 720px;
+width: 720px;
+height: 810px;
+flex-shrink: 0;
+}
+
+.Header-buttons{
+margin-top: 33px;
+width: 194px;
+height: 62px;
+position: absolute;
+z-index: 10;
+color: #F7F7F7;
+cursor: pointer;
+
+
+/* UI Properties */
+
+opacity: 1;
+}
+.fp-heading{
+  font-size: 42px;
+}
+.color-side-fp-text{
+margin-top: 300px;
+margin-left: 60px;
+width: 80%;
+height: 80%;
+
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+}
+
+.fp-para-colorside{
+
+margin-top: 5px;
+width: 90%;
+height: 108px;
+/* UI Properties */
+letter-spacing: var(--unnamed-character-spacing--0-11);
+text-align: left;
+letter-spacing: -0.11px;
+color: #6D6D6D;
+opacity: 1;
+}
+
+.image-color-fp1{
+  position: relative;
+z-index: 1;
+width: 207px;
+height: 80px;
+/* UI Properties */
+z-index: 5;
+opacity: 1;
+display: inline;
+cursor: pointer;
+}
+
+.image-side-text{
+margin-top: 501px;
+position: absolute;
+left: 70px;
+color: #fff;
+z-index: 10;
+font-size: 25px;
+width: 220px;
+font-weight: bold;
+opacity: 1;
+}
+.image-side-text2{
+margin-top: 544px;
+left: 55px;
+width: 300px;
+height: 81px;
+position: absolute;
+z-index: 10;
+/* UI Properties */
+text-align: left;
+letter-spacing: -0.11px;
+color: #FFE8DF;
+opacity: 1;
+}
+
+
+.logo-bottom{
+  position: absolute;
+  margin-top: 762px;
+  margin-left: 280px;
+  z-index: 10;
+width: 10px;
+height: 11px;
+opacity: 1;
+}
+
